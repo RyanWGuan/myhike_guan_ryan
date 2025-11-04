@@ -41,6 +41,7 @@ function readQuote(day) {
         console.error("Error listening to document: ", error);
     });
 }
+
 // Helper function to add the sample hike documents.
 function addHikeData() {
     const hikesRef = collection(db, "hikes");
